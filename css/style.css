@@ -92,6 +92,11 @@ article{
 Page
 */
 
+.am-block
+{
+  max-width: 100% !important;
+}
+
 
 /*
 Bloglist

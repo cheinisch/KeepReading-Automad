@@ -1,0 +1,11 @@
+{
+    "name": "Keep Reading",
+    "description": "A light and elegant multi-purpose theme",
+    "author": "Christian Heinisch",
+    "version": "0.0.1",
+    "license": "MIT",
+    "tooltips": {
+        "+main": "The main content block area"
+    }
+}
+

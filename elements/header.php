@@ -11,6 +11,15 @@
         <link rel="shortcut icon" href="/HeinischDesign_Favicon.ico">
 
         <title>@{ sitename } // @{ title }</title>
+
+        <@ Automad/MetaTags {
+            description: @{ textTeaser | stripTags },
+            ogTitle: @{ metaTitle | stripTags },
+            ogDescription: @{ textTeaser | stripTags },
+            ogImage: @{ ogImage },
+            twitterCard: 'summary_large_image'
+        } @>
+
         <!-- CSS -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.19.1/dist/css/uikit.min.css" />
 

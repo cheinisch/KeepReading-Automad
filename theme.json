@@ -4,6 +4,17 @@
     "author": "Christian Heinisch",
     "version": "0.0.1",
     "license": "MIT",
+    "masks": {
+        "page": [
+            "formatDatePost",
+            "formatDateProject"
+        ],
+        "shared": [
+            "+main",
+            "text",
+            "textTeaser"
+        ]
+    },
     "tooltips": {
         "+main": "The main content block area"
     }

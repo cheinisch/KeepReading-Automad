@@ -2,8 +2,16 @@
             <div uk-grid>
                 <div class="uk-width-1-3@m">
                     <b>Copyright</b>
-                    <p>This WEbsite is made with love and Automad
+                    <p>
+                        Hier kommt ein Text im Footer rein
                     </p>
+                    <ul>
+                        <li><span uk-icon="github"></span></li>
+                        <li><span uk-icon="mastodon"></span></li>
+                        <li><span uk-icon="instagram"></span></li>
+                        <li>Threads</li>
+                        <li><span uk-icon="xing"></span></li>
+                    </ul>
                 </div>
                 <div class="uk-width-1-3@m">
                 </div>

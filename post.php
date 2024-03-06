@@ -25,7 +25,7 @@
                     <span>Written by: Christian Heinisch</span>
                 </div>
                 <div>
-                    <span>Posted in: </span><a><span class="tag-label">Default</span></a> <span class="tag-label">Default</span>
+                    <span>Posted in: </span> <@ elements/tags.php @>
                 </div>
             </article>
         </main>

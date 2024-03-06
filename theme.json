@@ -11,12 +11,12 @@
         ],
         "shared": [
             "+main",
-            "text",
-            "textTeaser"
+            "subheadline"
         ]
     },
     "tooltips": {
-        "+main": "The main content block area"
+        "+main": "The main content block area",
+        "subheadline":"A Subheadline for a Blogpost or Page"
     }
 }
 

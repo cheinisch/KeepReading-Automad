@@ -2,7 +2,7 @@
                 <div>
                     <div uk-navbar>            
                         <div class="uk-navbar-left">
-                            <a class="uk-navbar-item uk-logo" href="#" aria-label="Back to Home">@{ sitename }</a>
+                            <a class="uk-navbar-item uk-logo" href="/" aria-label="Back to Home">@{ sitename }</a>
                         </div>
                         <div class="uk-navbar-right">
                             <ul class="uk-navbar-nav">

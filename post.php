@@ -17,7 +17,7 @@
             <article>
                 <div class="article-header">
                     <h1>@{ title }</h1>
-                    <span>Subheadline</span>
+                        <span>@{ subheadline }</span>
                 </div>
                 @{ +main }
                 <div class="article-info">
@@ -25,7 +25,7 @@
                     <span>Written by: Christian Heinisch</span>
                 </div>
                 <div>
-                    <span>Posted in: </span><span class="tag-label">Default</span> <span class="tag-label">Default</span>
+                    <span>Posted in: </span><a><span class="tag-label">Default</span></a> <span class="tag-label">Default</span>
                 </div>
             </article>
         </main>

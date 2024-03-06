@@ -21,9 +21,10 @@
                 </div>
                 @{ +main }
                 <div class="article-info">
+                <div>
                     <span>Written by: Christian Heinisch</span>
                 </div>
-                <div class="article-info">
+                <div>
                     <span>Posted in: </span><span class="tag-label">Default</span> <span class="tag-label">Default</span>
                 </div>
             </article>

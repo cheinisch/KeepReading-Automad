@@ -10,15 +10,23 @@
                 <div class="uk-width-1-6@m">
                     <!-- Bottom NAV 2-->
                     <ul class="uk-nav uk-nav-default">
-                        <li><a href="#">First Bottom Link</a></li>
-                        <li><a href="#">Second Bottom Link</a></li>
+                        <@ newPagelist { type: false, excludeHidden: false } @>
+                        <@ foreach in pagelist @>
+                            <@ if @{ checkboxShowinBottomNav_2 } @>
+                                <li><a href="@{ url }">@{ title }</a></li>
+                            <@ end @>
+                        <@ end @>	
                     </ul>
                 </div>
                 <div class="uk-width-1-6@m">
                     <!-- Bottom NAV 1 -->
                     <ul class="uk-nav uk-nav-default">
-                        <li><a href="#">First Bottom Link</a></li>
-                        <li><a href="#">Second Bottom Link</a></li>
+                        <@ newPagelist { type: false, excludeHidden: false } @>
+                        <@ foreach in pagelist @>
+                            <@ if @{ checkboxShowinBottomNav_1 } @>
+                                <li><a href="@{ url }">@{ title }</a></li>
+                            <@ end @>
+                        <@ end @>	
                     </ul>
                 </div>         
             </div>

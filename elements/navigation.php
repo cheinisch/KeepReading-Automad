@@ -7,7 +7,7 @@
                         <div class="uk-navbar-right">
                             <ul class="uk-navbar-nav">
                                 <li>
-                                    <a><span uk-icon="rss"></span></a>
+                                    <a href="/feed"><span uk-icon="rss"></span></a>
                                 </li>
                                 <li><a uk-toggle="target: #offcanvas-nav" href="#"><span uk-navbar-toggle-icon></span></a></li>
                             </ul>

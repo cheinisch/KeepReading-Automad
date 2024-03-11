@@ -1,9 +1,9 @@
         <footer>
             <div uk-grid>
                 <div class="uk-width-1-3@m">
-                    <b>Copyright 2024</b>
+                    <b>@{ sitename }</b>
                     <p>
-                        Diese Seite ist gemacht mit <span uk-icon="heart"></span> Liebe und <span uk-icon="code"></span> Automad
+                        &Copy; 2024 Diese Seite ist gemacht mit <span uk-icon="heart"></span> Liebe und <span uk-icon="code"></span> Automad
                     </p>
                     <ul>
                         <li><span uk-icon="github"></span></li>

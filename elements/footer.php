@@ -1,9 +1,9 @@
         <footer>
             <div uk-grid>
                 <div class="uk-width-1-3@m">
-                    <b>Copyright</b>
+                    <b>Copyright 2024</b>
                     <p>
-                        Hier kommt ein Text im Footer rein
+                        Diese Seite ist gemacht mit <span uk-icon="heart"></span> Liebe und <span uk-icon="code"></span> Automad
                     </p>
                     <ul>
                         <li><span uk-icon="github"></span></li>

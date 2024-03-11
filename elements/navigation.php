@@ -13,18 +13,30 @@
                             </ul>
                             <div id="offcanvas-nav" uk-offcanvas="mode: slide overlay: true">
                                 <div class="uk-offcanvas-bar">
+                                <@ set { ":hideSecondLevel": @{ checkboxHideSecondLevelNavbar } } @>
+                                <@ with '/' @>
+                                <@ newPagelist { type: 'children' } @>
                                     <ul class="uk-nav uk-nav-default">
                                         <li class="uk-nav-header">Menu</li>
                                         <li class="uk-nav-divider"></li>
-                                        <@ newPagelist { type: false, excludeHidden: false } @>
                                         <@ foreach in pagelist @>
-                                                <@ if @{ :current } @>
-                                                    <li class="uk-active"><a href="@{ url }">@{ title }</a></li>
-                                                <@ else @>
-                                                    <li><a href="@{ url }">@{ title }</a></li>
-                                                <@ end @>
+                                            <@ if @{ :pagelistCount } and not @{ :hideSecondLevel } @>
+                                                <li class="uk-parent <@ if @{ :currentPath }@> uk-active"<@ end @>>
+                                                    <a href="@{ url }">@{ title }</a>
+                                                    <ul class="uk-nav-sub">
+                                                        <@ foreach in pagelist @>
+                                                            <li <@ if @{ :currentPath }@> class="uk-active"<@ end @>><a href="@{ url }">@{ title }</a></li>
+                                                        <@ end @>
+                                                    </ul>
+                                                </li>
+                                            <@ else @>
+                                                <li <@ if @{ :currentPath }@>class="uk-active<@ end @>">
+                                                    <a href="@{ url }">@{ title }</a>
+                                                </li>
+                                            <@ end @>
                                         <@ end @>
                                     </ul>
+                                <@ end @>
                                 </div>
                             </div>
                         </div>

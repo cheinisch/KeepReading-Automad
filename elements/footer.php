@@ -9,7 +9,7 @@
                         <li><span uk-icon="github"></span></li>
                         <li><span uk-icon="mastodon"></span></li>
                         <li><span uk-icon="instagram"></span></li>
-						<li><span uk-icon="threads"></span></li>
+			<li><span uk-icon="threads"></span></li>
                         <li><span uk-icon="xing"></span></li>
                     </ul>
                 </div>

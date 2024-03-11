@@ -3,7 +3,7 @@
                 <div class="uk-width-1-3@m">
                     <b>@{ sitename }</b>
                     <p>
-                        &Copy; 2024 Diese Seite ist gemacht mit <span uk-icon="heart"></span> Liebe und <span uk-icon="code"></span> Automad
+                        &copy; 2024<br />Diese Seite ist gemacht mit <span uk-icon="heart"></span> Liebe und <span uk-icon="code"></span> Automad
                     </p>
                     <ul>
                         <li><span uk-icon="github"></span></li>

@@ -26,12 +26,16 @@
                 </div>
                 @{ +main }
                 <div class="article-info">
+                <@ if @{ author } @>
                 <div>
-                    <span>Written by: Christian Heinisch</span>
+                    <span>Written by: @{ author }</span>
                 </div>
+                <@ end @>
+                <@ if @{ tags } @>
                 <div>
                     <span>Posted in: </span> <@ elements/tags.php @>
                 </div>
+                <@ end @>
             </article>
         </main>
 <@ elements/footer.php @>

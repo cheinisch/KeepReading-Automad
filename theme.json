@@ -11,12 +11,14 @@
         ],
         "shared": [
             "+main",
-            "subheadline"
+            "subheadline",
+            "author"
         ]
     },
     "tooltips": {
         "+main": "The main content block area",
         "subheadline":"A Subheadline for a Blogpost or Page",
+        "author":"The Name of the Author",
         "checkboxShowinBottomNav_1":"Show Page in Bottom Nav 1",
         "checkboxShowinBottomNav_2":"Show Page in Bottom Nav 2"
     }

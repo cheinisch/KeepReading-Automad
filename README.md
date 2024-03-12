@@ -21,6 +21,12 @@ If you enable the rss feed in the system settings, there is a rss feed icon in t
 
 ### Thumbnails
 
+### Author Name
+
+### Tags & Tag Filter
+
+
+
 External Ressources
 ---
 This theme is using the [uikit Framework](https://getuikit.com)

@@ -15,6 +15,7 @@ Layout
 Features
 ---
 If you enable the rss feed in the system settings, there is a rss feed icon in the navbar.
+
 ![RSS Feed Icon](https://dev.heinisch-design.de/demo/shared/keepreading/rss.png)
 
 External Ressources

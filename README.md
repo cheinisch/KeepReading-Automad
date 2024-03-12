@@ -13,7 +13,7 @@ Layout
 ---
 
 ## Features
----
+
 ### RSS Feed
 If you enable the rss feed in the system settings, there is a rss feed icon in the navbar.
 

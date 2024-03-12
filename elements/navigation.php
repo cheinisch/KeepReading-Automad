@@ -1,3 +1,9 @@
+<?php
+    use Automad\Core\Config;
+
+    $config = Config::read();
+    $rssfeed = $config['AM_FEED_ENABLED'];
+?>
             <nav class="uk-navbar-container uk-navbar-transparent">
                 <div>
                     <div uk-navbar>            
@@ -7,7 +13,7 @@
                         <div class="uk-navbar-right">
                             <ul class="uk-navbar-nav">
                                 <li>
-                                    <a href="/feed"><span uk-icon="rss"></span></a>
+                                    <?php if ($rssfeed == 1) { echo '<a href="/feed"><span uk-icon="rss"></span></a>'; } ?>
                                 </li>
                                 <li><a uk-toggle="target: #offcanvas-nav" href="#"><span uk-navbar-toggle-icon></span></a></li>
                             </ul>
@@ -21,16 +27,16 @@
                                         <li class="uk-nav-divider"></li>
                                         <@ foreach in pagelist @>
                                             <@ if @{ :pagelistCount } and not @{ :hideSecondLevel } @>
-                                                <li class="uk-parent <@ if @{ :currentPath }@> uk-active"<@ end @>>
+                                                <li class="uk-parent <@ if @{ :currentPath }@> uk-active<@ end @>">
                                                     <a href="@{ url }">@{ title }</a>
                                                     <ul class="uk-nav-sub">
                                                         <@ foreach in pagelist @>
-                                                            <li <@ if @{ :currentPath }@> class="uk-active"<@ end @>><a href="@{ url }">@{ title }</a></li>
+                                                            <li <@ if @{ :currentPath } @> class="uk-active"<@ end @>><a href="@{ url }">@{ title }</a></li>
                                                         <@ end @>
                                                     </ul>
                                                 </li>
                                             <@ else @>
-                                                <li <@ if @{ :currentPath }@>class="uk-active<@ end @>">
+                                                <li<@ if @{ :currentPath }@> class="uk-active"<@ end @>>
                                                     <a href="@{ url }">@{ title }</a>
                                                 </li>
                                             <@ end @>

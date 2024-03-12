@@ -12,6 +12,10 @@ Design
 Layout
 ---
 
+Features
+---
+If you enable the rss feed in the system settings, there is a rss feed icon in the navbar.
+
 External Ressources
 ---
 This theme is using the [uikit Framework](https://getuikit.com)

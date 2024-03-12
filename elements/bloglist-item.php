@@ -3,7 +3,14 @@
                                 <div class="uk-card">
                                     <div class="uk-card-media-top">
                                         <@ header-image.php @>
-                                        <img src="https://dummyimage.com/1280x720/ababab/fff.png" width="1280" height="720" alt="">
+                                        <@ if not @{ :hideThumbnails } and not @{ iconPanel } @>
+                                            <@~ header-image.php @>
+                                            <@ if @{ :imageCard } ~@>
+                                        <img src="@{ :imageCard }" class="teaser-image" width="1280" height="720" alt="">
+                                            <@ else @>
+                                            <img src="/packages/@{ theme }/img/dummy.png" class="teaser-image" width="1280" height="720" alt="">
+                                            <@~ end ~@>
+				                        <@ end @>
                                     </div>
                                     <div class="card-body">
                                         <h2 class="head-card">@{ title }</h2>

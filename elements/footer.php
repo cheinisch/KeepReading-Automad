@@ -5,13 +5,13 @@
                     <p>
                         &copy; 2024<br />Diese Seite ist gemacht mit <span uk-icon="heart"></span> Liebe und <span uk-icon="code"></span> Automad
                     </p>
-                    <ul>
+                    <!--<ul>
                         <li><span uk-icon="github"></span></li>
                         <li><span uk-icon="mastodon"></span></li>
                         <li><span uk-icon="instagram"></span></li>
-			<li><span uk-icon="threads"></span></li>
+			            <li><span uk-icon="threads"></span></li>
                         <li><span uk-icon="xing"></span></li>
-                    </ul>
+                    </ul>-->
                 </div>
                 <div class="uk-width-1-3@m">
                 </div>

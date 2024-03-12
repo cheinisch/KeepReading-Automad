@@ -5,6 +5,13 @@ KeepReading is a simple theme with 3 components.
 - Post
 - Blog
   
-Lightweight design
+Design
+---
+
+
+Layout
+---
+
+External Ressources
 ---
 This theme is using the [uikit Framework](https://getuikit.com)

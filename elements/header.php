@@ -8,7 +8,9 @@
             ogTitle: @{ metaTitle | stripTags },
             ogType: 'website',
             ogImage: @{ ogImage },
-            twitterCard: 'summary_large_image'
+            twitterCard: 'summary_large_image',
+            ogDescription: @{ +main | findFirstParagraph | 300 },
+            description: @{ +main | findFirstParagraph | 300 }
         } @>
 
         <title>@{ sitename } // @{ title }</title>

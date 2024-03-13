@@ -15,7 +15,7 @@
                                     <div class="card-body">
                                         <h2 class="head-card">@{ title }</h2>
                                         <p class="uk-text-meta uk-margin-remove-top"><@ date.php @></p>
-                                        @{ text | findFirstParagraph | 150 } 
+                                        @{ +main | findFirstParagraph | 150 }
                                     </div>
                                 </div>
                             </div>

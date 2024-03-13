@@ -17,6 +17,10 @@ The Navigationbutton is on the top right corner of the page and the menu comes f
 
 ![Menu](https://dev.heinisch-design.de/demo/shared/keepreading/sidebar.png)
 
+There is an additional menu in the footer area. You can select Navmenu 1 or Navmenu 2 in the footer area.
+
+![Footer](https://dev.heinisch-design.de/demo/shared/keepreading/footer.png)
+
 ## Features
 
 ### RSS Feed

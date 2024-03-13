@@ -16,8 +16,7 @@
         ]
     },
     "tooltips": {
-        "+main":"The normal Editor for Blocks..",
-        "text":"Markdown Editor Textbox is under the +main Block",
+        "+main":"The normal Editor for Blocks",
         "subheadline":"A Subheadline for a Blogpost or Page",
         "author":"The Name of the Author",
         "checkboxShowinBottomNav_1":"Show Page in Bottom Nav 1",

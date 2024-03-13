@@ -25,7 +25,6 @@
                         <span>@{ subheadline }</span>
                 </div>
                 @{ +main }
-                @{ text | markdown }
                 <div class="article-info">
                 <@ if @{ author } @>
                 <div>

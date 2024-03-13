@@ -16,7 +16,8 @@
         ]
     },
     "tooltips": {
-        "+main": "The main content block area",
+        "text":"The Main Content with Markdown Editor",
+        "+main":"The normal Editor for Blocks... (Only for old Data)",
         "subheadline":"A Subheadline for a Blogpost or Page",
         "author":"The Name of the Author",
         "checkboxShowinBottomNav_1":"Show Page in Bottom Nav 1",

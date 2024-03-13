@@ -8,6 +8,7 @@
             <content class="page">
                 <h1>@{ title }</h1>
                 @{ +main }
+                @{ text | markdown }
             </content>
         </main>
 <@ elements/footer.php @>

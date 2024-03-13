@@ -5,9 +5,7 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <@ Automad/MetaTags {
-            description: @{ textTeaser | stripTags },
             ogTitle: @{ metaTitle | stripTags },
-            ogDescription: @{ textTeaser | stripTags },
             ogType: 'website',
             ogImage: @{ ogImage },
             twitterCard: 'summary_large_image'

@@ -39,5 +39,4 @@
                 </div>
             </content>
         </main>
-        </main>
 <@ elements/footer.php @>

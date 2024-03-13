@@ -159,8 +159,15 @@ am-quote
   padding-left: 1rem;
 }
 
+am-quote > figure > blockquote{
+  border-left: none;
+  padding-left: 0;
+}
+
 blockquote{
   margin-bottom: 2px;
+  border-left: 2px solid;
+  padding-left: 1rem;
 }
 
 .am-block figcaption{

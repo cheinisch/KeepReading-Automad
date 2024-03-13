@@ -1,6 +1,6 @@
         <footer>
             <div uk-grid>
-                <div class="uk-width-1-3@m">
+                <div class="uk-width-1-3@m footeritems">
                     <b>@{ sitename }</b>
                     <p>
                         &copy; 2024 This site is made with <span uk-icon="heart"></span> and <span uk-icon="code"></span> Automad
@@ -13,9 +13,9 @@
                         <li><span uk-icon="xing"></span></li>
                     </ul>-->
                 </div>
-                <div class="uk-width-1-3@m">
+                <div class="uk-width-1-3@m footeritems">
                 </div>
-                <div class="uk-width-1-6@m">
+                <div class="uk-width-1-6@m footeritems">
                     <!-- Bottom NAV 2-->
                     <ul class="uk-nav uk-nav-default">
                         <@ newPagelist { type: false, excludeHidden: false } @>
@@ -26,7 +26,7 @@
                         <@ end @>	
                     </ul>
                 </div>
-                <div class="uk-width-1-6@m">
+                <div class="uk-width-1-6@m footeritems">
                     <!-- Bottom NAV 1 -->
                     <ul class="uk-nav uk-nav-default">
                         <@ newPagelist { type: false, excludeHidden: false } @>

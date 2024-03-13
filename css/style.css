@@ -141,3 +141,28 @@ Bloglist
   max-width: 1280px;
   max-height: 720px;
 }
+
+
+/*
+---------------------------------------------
+            Text Elements
+---------------------------------------------            
+*/
+
+
+/*
+Quote
+*/
+am-quote
+{
+  border-left: 2px solid;
+  padding-left: 1rem;
+}
+
+blockquote{
+  margin-bottom: 2px;
+}
+
+.am-block figcaption{
+  padding: 0.5rem 0 0;
+}

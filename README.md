@@ -5,12 +5,17 @@ KeepReading is a simple theme with 3 components.
 - Post
 - Blog
   
-Design
----
+## Design
 
+The Template has asimple and clean Design  with one colorscheme.
 
-Layout
----
+![Bloglist](https://dev.heinisch-design.de/demo/shared/keepreading/bloglist.png)
+
+## Layout
+
+The Navigationbutton is on the top right corner of the page and the menu comes from the left side.
+
+![Menu](https://dev.heinisch-design.de/demo/shared/keepreading/sidebar.png)
 
 ## Features
 
@@ -24,6 +29,10 @@ If you enable the rss feed in the system settings, there is a rss feed icon in t
 ### Author Name
 
 ### Tags & Tag Filter
+
+There is a Tag filter integratet. You can close it, with the "X" Button.
+
+![TAG Filter](https://dev.heinisch-design.de/demo/shared/keepreading/tagfilter.png)
 
 
 

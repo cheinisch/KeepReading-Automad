@@ -11,9 +11,9 @@ http_response_code(404);
         <main>
             <content class="page">
                 <h1>HTTP 404 Error</h1>
-                <h2>File not Found</h2>
+                <h2><?php echo $langArray['error404']; ?></h2>
                 <p>
-                    Looks like you'be followed a broken link or entered a URL that doesn't exist on this site.
+                    <?php echo $langArray['error404description']; ?>
                 </p>
                 <p>
                     <a href="/">Back to our site</a>

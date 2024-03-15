@@ -36,6 +36,9 @@
                     <span>Posted in: </span> <@ elements/tags.php @>
                 </div>
                 <@ end @>
+                <div>
+                    <?php echo $langArray['keeponreading']; ?>
+                </div>
             </article>
         </main>
 <@ elements/footer.php @>

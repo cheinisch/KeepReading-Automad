@@ -1,3 +1,6 @@
+<?php
+$langArray = require './packages/heimfisch/keepreading/lang/lang.en.php';
+?>
 <@ elements/header.php @>
 
     <body>

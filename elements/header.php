@@ -1,7 +1,3 @@
-<?php
-    $langArray = require '/packages/heimfisch/keepreading/lang/lang.en.php';
-?>
-
 <!doctype html>
 <html class="no-js" lang="de">
     <head>

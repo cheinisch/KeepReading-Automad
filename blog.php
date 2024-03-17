@@ -31,7 +31,9 @@
                 <h1>@{ title }</h1>
 				<@ if @{ ?filter } @>
 					<h2>Filter: @{ ?filter } <a href="@{ url }" uk-icon="icon: close; ratio: 1.5"></a></h2>
-				<@ end @>				
+				<@ end @>
+				@{ +main }
+                @{ text }			
                 <div class="uk-child-width-1-2@s uk-child-width-1-3@m" uk-grid>
                     <@ foreach in pagelist @>
                     <@ elements/bloglist-item.php @>    

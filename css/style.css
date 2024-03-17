@@ -142,6 +142,11 @@ Bloglist
   max-height: 720px;
 }
 
+.blogtext
+{
+  padding-bottom: 1rem;
+}
+
 
 /*
 ---------------------------------------------

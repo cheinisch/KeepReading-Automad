@@ -25,7 +25,9 @@ $langArray = require './packages/heimfisch/keepreading/lang/lang.en.php';
                 <div class="article-header">
                
                     <h1>@{ title }</h1>
+                    <@ if @{ +subheadline } @>
                         <span>@{ +subheadline }</span>
+                    <@ end @> 
                 </div>
                 @{ +main }
                 @{ text }

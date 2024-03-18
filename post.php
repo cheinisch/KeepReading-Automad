@@ -34,12 +34,12 @@ $langArray = require './packages/heimfisch/keepreading/lang/lang.en.php';
                 <div class="article-info">
                 <@ if @{ author } @>
                 <div>
-                    <span><?php echo $langArray['writtenby']; ?> @{ author }</span>
+                    <span><?php echo $langArray['writtenby']; ?>: @{ author }</span>
                 </div>
                 <@ end @>
                 <@ if @{ tags } @>
                 <div>
-                    <span><?php echo $langArray['posttags']; ?> </span> <@ elements/tags.php @>
+                    <span><?php echo $langArray['posttags']; ?>: </span> <@ elements/tags.php @>
                 </div>
                 <@ end @>
                 <div>

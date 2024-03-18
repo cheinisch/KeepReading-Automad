@@ -3,6 +3,8 @@
     declare(strict_types=1);
 
     return [
+        "posttags" => "Posted in",
+        "writtenby" => "Written By",
         "readmore" => "Read more",
         "keeponreading" => "Keep on Reading",
         "error404" => "File not Found",

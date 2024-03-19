@@ -25,7 +25,7 @@
 						type: false,
 						match: false, 
 						search: @{ ?search },
-						limit: @{ itemsPerPage | def(10) },
+						limit: @{ itemsPerPage | def(9) },
 						page: @{ ?page | def(1) } 
 					} @>
 				<@~ end ~@>

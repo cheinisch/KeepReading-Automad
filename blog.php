@@ -41,6 +41,8 @@
                     <@ elements/bloglist-item.php @>    
                     <@ end @>
                 </div>
+				<div class="">
+				</div>
             </content>
         </main>
 <@ elements/footer.php @>

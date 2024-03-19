@@ -24,7 +24,9 @@
 					<@ pagelist { 
 						type: false,
 						match: false, 
-						search: @{ ?search }
+						search: @{ ?search },
+						limit: @{ itemsPerPage | def(10) },
+						page: @{ ?page | def(1) } 
 					} @>
 				<@~ end ~@>
             <content class="bloglist">
@@ -42,6 +44,24 @@
                     <@ end @>
                 </div>
 				<div class="">
+				<@ set { :page: @{ ?page | def (1) } } @>
+		<@ if @{ :page } > 1 @>
+			<a href="?<@ queryStringMerge { page: @{ :page | -1 } } @>">&lt;</a>
+		<@ end @>
+		<@ if @{ :paginationCount } > 1 @>
+			<@ for @{ :page | -3 } to @{ :page | +3 } @>
+				<@ if @{ :i } > 0 and @{ :i } <= @{ :paginationCount } @>
+					<@ if @{ :i } = @{ :page } @>
+						@{ :i }
+					<@ else @>
+						<a href="?<@ queryStringMerge { page: @{ :i } } @>">@{ :i }</a>
+					<@ end @>
+				<@ end @>
+			<@ end @>
+		<@ end @>
+		<@ if @{ :page } < @{ :paginationCount } @>
+			<a href="?<@ queryStringMerge { page: @{ :page | +1 } } @>">&gt;</a>
+		<@ end @>
 				</div>
             </content>
         </main>

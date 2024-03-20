@@ -151,11 +151,7 @@ Bloglist
   padding-top: 1.5rem;
 }
 
-/*
----------------------------------------------
-            Text Elements
----------------------------------------------            
-*/
+.23
 
 
 /*
@@ -180,4 +176,30 @@ blockquote{
 
 .am-block figcaption{
   padding: 0.5rem 0 0;
+}
+
+
+
+/*
+---------------------------------------------
+            PRev Next Navigation
+---------------------------------------------            
+*/
+
+.prev-next-list{
+  padding-top:0.5rem;
+}
+
+.prev-next-title{
+  text-align: left;
+}
+
+.keepon-reading{
+  padding-top:1.5rem;
+  font-weight: bold;
+}
+
+.prev-next-date{
+  text-align: left;
+  font-style: italic;
 }

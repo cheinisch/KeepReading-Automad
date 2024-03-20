@@ -1,21 +1,16 @@
 <?php defined('AUTOMAD') or die('Direct access not permitted!'); ?>
-<@ newPagelist { type: 'siblings' } @>
-<@ if @{ :pagelistCount } @>
-	<@ with prev @>
-		<a href="@{ url }" class="button is-light is-small" title="@{ title }">
-			<span class="icon is-small">
-				<i class="fas fa-angle-left" aria-hidden="true"></i>
-			</span>
-		</a>
-	<@ end @>
-	<@ with next @>
-		<a href="@{ url }" class="button is-light is-small" title="@{ title }">
-			<@ if @{ labelNext } @>
-				<span>@{ labelNext }</span>
+<div class="uk-child-width-expand@s uk-text-center prev-next-list" uk-grid>
+	<@ newPagelist { type: 'siblings' } @>
+	<@ if @{ :pagelistCount } @>
+		<div>
+			<@ with prev @>
+				<@ prev_next-item.php @>
 			<@ end @>
-			<span class="icon is-small">
-				<i class="fas fa-angle-right" aria-hidden="true"></i>
-			</span>
-		</a>
+		</div>
+		<div>
+			<@ with next @>
+				<@ prev_next-item.php @>
+			<@ end @>
+		</div>
 	<@ end @>
-<@ end @>
+</div>

@@ -32,19 +32,21 @@ $langArray = require './packages/heimfisch/keepreading/lang/lang.en.php';
                 @{ +main }
                 @{ text }
                 <div class="article-info">
-                <@ if @{ author } @>
-                <div>
-                    <span><?php echo $langArray['writtenby']; ?>: @{ author }</span>
+                    <@ if @{ author } @>
+                    <div>
+                        <span><?php echo $langArray['writtenby']; ?>: @{ author }</span>
+                    </div>
+                    <@ end @>
+                    <@ if @{ tags } @>
+                    <div>
+                        <!--<span><?php echo $langArray['posttags']; ?>: </span>--> <@ elements/tags.php @>
+                    </div>
+                    <@ end @>
                 </div>
-                <@ end @>
-                <@ if @{ tags } @>
-                <div>
-                    <span><?php echo $langArray['posttags']; ?>: </span> <@ elements/tags.php @>
-                </div>
-                <@ end @>
-                <div>
-                    <?php echo $langArray['keeponreading']; ?>
-                </div>
+                    <div class="keepon-reading">
+                        <h3><?php echo $langArray['keeponreading']; ?></h3>
+                    </div>
+                <@ elements/prev_next.php @>
             </article>
         </main>
 <@ elements/footer.php @>

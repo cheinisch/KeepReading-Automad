@@ -39,5 +39,6 @@
                 </div>         
             </div>
         </footer>
+        @{ itemsTrackingCode }
     </body>
 </html>

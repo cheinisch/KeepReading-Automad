@@ -1,9 +1,4 @@
 <@~ header-image.php @>
-<?php
-$url =  "//{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}";
-
-$escaped_url = htmlspecialchars( $url, ENT_QUOTES, 'UTF-8' );
-?>
 <!doctype html>
 <html class="no-js" lang="de">
     <head>
@@ -13,6 +8,8 @@ $escaped_url = htmlspecialchars( $url, ENT_QUOTES, 'UTF-8' );
         <@ if @{ tags } @>
         <meta name="keywords" content="<@ foreach in tags 	@><@ if @{ :i } > 1 @>, @{ :tag }<@ else @>@{ :tag }<@ end @><@ end @>">
         <@ end @>
+        <meta name="description" content="@{ +main | findFirstParagraph | 150 }">
+
         <!-- Open Graph -->
         <@ Automad/MetaTags { 
             description: @{ metaDescription | def(@{ text | stripTags }) },

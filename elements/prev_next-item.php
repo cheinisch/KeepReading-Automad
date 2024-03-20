@@ -12,9 +12,9 @@
                     <@~ end ~@>
                 <@ end @>
             </div>
-            <div class="card-body">
+            <div class="card-body-prev-next">
                 <h4 class="prev-next-title">@{ title }</h4>
-                <span class="prev-next-date">2023-02-12</span>
+                <span class="prev-next-date"><@ date.php @></span>
             </div>
         </div>
     </div>

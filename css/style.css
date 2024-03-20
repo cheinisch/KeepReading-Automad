@@ -61,6 +61,18 @@
   }
 
 }
+
+time{
+  font-style: normal;
+  color:#777;
+  font-size: medium;
+}
+.time{
+font-style: normal;
+color:#777;
+font-size: medium;
+}
+
 /*
 Article
 */
@@ -151,9 +163,6 @@ Bloglist
   padding-top: 1.5rem;
 }
 
-.23
-
-
 /*
 Quote
 */
@@ -192,6 +201,8 @@ blockquote{
 
 .prev-next-title{
   text-align: left;
+  padding-bottom: 0rem;
+  margin-bottom: 0;
 }
 
 .keepon-reading{
@@ -200,6 +211,10 @@ blockquote{
 }
 
 .prev-next-date{
-  text-align: left;
+  text-align: start;
   font-style: italic;
+}
+
+.card-body-prev-next{
+  text-align: start;
 }

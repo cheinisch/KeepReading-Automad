@@ -41,6 +41,9 @@ $langArray = require './packages/heimfisch/keepreading/lang/lang.en.php';
                     <div>
                         <!--<span><?php echo $langArray['posttags']; ?>: </span>--> <@ elements/tags.php @>
                     </div>
+                    <div class="time">
+                    <?php echo $langArray['published']; ?> <@ elements/date.php @>
+                    </div>
                     <@ end @>
                 </div>
                     <div class="keepon-reading">

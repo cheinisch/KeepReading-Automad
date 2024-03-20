@@ -14,11 +14,13 @@ $escaped_url = htmlspecialchars( $url, ENT_QUOTES, 'UTF-8' );
         <meta name="keywords" content="<@ foreach in tags 	@><@ if @{ :i } > 1 @>, @{ :tag }<@ else @>@{ :tag }<@ end @><@ end @>">
         <@ end @>
         <!-- Open Graph -->
-        <meta property="og:title" content="@{ title }" />
-        <meta property="og:type" content="video.movie" />
-        <meta property="og:url" content="<?php echo 'https://'.$escaped_url; ?>" />
-        <@ if @{ :imageCard } ~@>  
-        <meta property="og:image" content="<?php echo 'https://'.$_SERVER['HTTP_HOST']; ?>@{ :imageCard }" />
+        <@ Automad/MetaTags { 
+            description: @{ metaDescription | def(@{ text | stripTags }) },
+            ogTitle: @{ ogTitle | def('@{ sitename } / @{ title }') },
+            ogDescription: @{ ogDescription | def(@{ text | stripTags }) },
+            ogType: 'website',
+            ogImage: @{ ogImage | def(@{ :imageCard }) }
+        } @>
         <@~ end ~@>
 
         <!-- Title -->

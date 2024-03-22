@@ -20,16 +20,28 @@
         } @>
         <@~ end ~@>
 
-        
         <!-- Title -->
         <title>@{ sitename } // @{ title }</title>
      
         <!-- CSS -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.19.1/dist/css/uikit.min.css" />
+
+
+        <@ if @{ checkboxCloudCSS }@>
+        <!-- UIkit CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.19.2/dist/css/uikit.min.css" />
 
         <!-- UIkit JS -->
-        <script src="https://cdn.jsdelivr.net/npm/uikit@3.19.1/dist/js/uikit.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/uikit@3.19.1/dist/js/uikit-icons.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.19.2/dist/js/uikit.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.19.2/dist/js/uikit-icons.min.js"></script>
+
+        <@ else @>
+        <!-- UIkit CSS -->
+        <link rel="stylesheet" href="/packages/@{ theme }/css/uikit.min.css" />
+
+        <!-- UIkit JS -->
+        <script src="/packages/@{ theme }/js/uikit.min.js"></script>
+        <script src="/packages/@{ theme }/js/uikit-icons.min.js"></script>
+        <@ end @>
 
         <link rel="stylesheet" href="/packages/@{ theme }/css/style.css">
         <!---->

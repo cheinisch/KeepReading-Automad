@@ -7,7 +7,8 @@
     "masks": {
         "page": [
             "formatDatePost",
-            "formatDateProject"
+            "formatDateProject",
+            "checkboxCloudCSS"
         ],
         "shared": [
             "+main",
@@ -21,6 +22,7 @@
         "author":"The Name of the Author",
         "checkboxShowinBottomNav_1":"Show Page in Bottom Nav 1",
         "checkboxShowinBottomNav_2":"Show Page in Bottom Nav 2",
+        "checkboxCloudCSS":"Using UIKit cdn for delivery",
         "itemsTrackingCode":"Additional Tracking Code in the Footer Area"
     }
 }

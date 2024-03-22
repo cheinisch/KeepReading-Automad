@@ -6,7 +6,11 @@
                                         <@ if not @{ :hideThumbnails } and not @{ iconPanel } @>
                                             <@~ header-image.php @>
                                             <@ if @{ :imageCard } ~@>
-                                        <img src="@{ :imageCard }" class="teaser-image" width="1280" height="720" alt="">
+                                                <@ img {  file:@{ :imageCard },
+                                                            width: 640,
+                                                            height: 360,
+                                                            crop: true,
+                                                            class: "teaser-image"  } @>
                                             <@ else @>
                                             <img src="/packages/@{ theme }/img/dummy.png" class="teaser-image" width="1280" height="720" alt="">
                                             <@~ end ~@>

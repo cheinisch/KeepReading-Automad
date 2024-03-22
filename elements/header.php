@@ -18,21 +18,20 @@
             ogType: 'website',
             ogImage: @{ ogImage | def(@{ :imageCard }) }
         } @>
-        <@~ end ~@>
 
         <!-- Title -->
         <title>@{ sitename } // @{ title }</title>
      
         <!-- CSS -->
 
-
         <@ if @{ checkboxCloudCSS } @>
-        <!-- UIkit CSS -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.19.2/dist/css/uikit.min.css" />
 
-        <!-- UIkit JS -->
-        <script src="https://cdn.jsdelivr.net/npm/uikit@3.19.2/dist/js/uikit.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/uikit@3.19.2/dist/js/uikit-icons.min.js"></script>
+            <!-- UIkit CSS -->
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.19.2/dist/css/uikit.min.css" />
+
+            <!-- UIkit JS -->
+            <script src="https://cdn.jsdelivr.net/npm/uikit@3.19.2/dist/js/uikit.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/uikit@3.19.2/dist/js/uikit-icons.min.js"></script>
 
         <@ else @>
         <!-- UIkit CSS -->

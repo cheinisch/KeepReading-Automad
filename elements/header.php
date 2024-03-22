@@ -43,6 +43,8 @@
         <script src="/packages/@{ theme }/js/uikit-icons.min.js"></script>
         <@ end @>
 
+
+        <!-- Keepreading CSS -->
         <link rel="stylesheet" href="/packages/@{ theme }/css/style.css">
         <!---->
     </head>

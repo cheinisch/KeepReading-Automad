@@ -1,3 +1,6 @@
+![Static Badge](https://img.shields.io/badge/build-passing-brightgreen?style=flat&logo=uikit&logoColor=white&label=uiKit&labelColor=blue&color=grey)
+
+
 # KeepReading
 
 KeepReading is a simple theme with 3 components.

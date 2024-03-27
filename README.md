@@ -1,4 +1,4 @@
-![Static Badge](https://img.shields.io/badge/build-passing-brightgreen?style=flat&logo=uikit&logoColor=white&label=uiKit&labelColor=blue&color=grey)
+![Static Badge](https://img.shields.io/badge/Version_1.9.2-uikit?logo=uikit&logoColor=white&label=uikit&color=blue)
 ![GitHub Release](https://img.shields.io/github/v/release/cheinisch/keepreading-automad)
 
 

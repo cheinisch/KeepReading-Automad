@@ -1,4 +1,5 @@
-![GitHub Release](https://img.shields.io/github/v/release/cheinisch/KeepReading-Automad?include_prereleases&display_name=release&style=flat&logo=grav&color=purple) ![Static Badge](https://img.shields.io/badge/Version_3.19.2-uikit?logo=uikit&logoColor=white&label=uikit&color=blue) 
+![GitHub Release](https://img.shields.io/github/v/release/cheinisch/KeepReading-Automad?include_prereleases&display_name=release&style=flat&logo=grav&color=purple?style=for-the-badge) ![Static Badge](https://img.shields.io/badge/Version_3.19.2-uikit?logo=uikit&logoColor=white&label=uikit&color=blue?style=for-the-badge) ![GitHub License](https://img.shields.io/github/license/cheinisch/Keepreading-Automad?style=for-the-badge)
+
 
 
 

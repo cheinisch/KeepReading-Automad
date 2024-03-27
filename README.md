@@ -1,6 +1,6 @@
 ![GitHub Release](https://img.shields.io/github/v/release/cheinisch/KeepReading-Automad?style=for-the-badge&include_prereleases&display_name=release&logo=github&color=purple) ![GitHub License](https://img.shields.io/github/license/cheinisch/Keepreading-Automad?style=for-the-badge)
 
-![Static Badge](https://img.shields.io/badge/Version_3.19.2-uikit?style=for-the-badge&logo=uikit&logoColor=white&label=uikit&color=blue) 
+![Static Badge](https://img.shields.io/badge/Version_3.19.2-uikit?link=https%3A%2F%2Fgithub.com%2Fuikit%2Fuikit&style=for-the-badge&logo=uikit&logoColor=white&label=uikit&color=blue) 
 
 
 

@@ -30,7 +30,7 @@ $langArray = require './packages/heimfisch/keepreading/lang/lang.en.php';
                     <@ end @> 
                 </div>
                 @{ +main }
-                @{ text }
+                @{ text | markdown }
                 <div class="article-info">
                     <@ if @{ author } @>
                     <div>

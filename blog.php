@@ -36,7 +36,7 @@
 				<@ else @>
 				<div class="blogtext">
 				@{ +main }
-                @{ text }			
+                @{ text | markdown }			
 				</div>
 				<@ end @>
                 <div class="uk-child-width-1-2@s uk-child-width-1-3@m" uk-grid>

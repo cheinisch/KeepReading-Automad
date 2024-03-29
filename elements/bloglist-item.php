@@ -19,8 +19,11 @@
                                     <div class="card-body">
                                         <h2 class="head-card">@{ title }</h2>
                                         <p class="uk-text-meta uk-margin-remove-top"><@ date.php @></p>
+                                        <@ if @{ +main | findFirstParagraph | 150 } @>
                                         @{ +main | findFirstParagraph | 150 }
+                                        <@ else @>
                                         @{ text | markdown | 150 }
+                                        <@ end @>
                                     </div>
                                 </div>
                             </div>

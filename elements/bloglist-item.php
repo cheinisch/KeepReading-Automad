@@ -20,7 +20,7 @@
                                         <h2 class="head-card">@{ title }</h2>
                                         <p class="uk-text-meta uk-margin-remove-top"><@ date.php @></p>
                                         @{ +main | findFirstParagraph | 150 }
-                                        @{ text | findFirstParagraph | 150 }
+                                        @{ text | markdown | 150 }
                                     </div>
                                 </div>
                             </div>

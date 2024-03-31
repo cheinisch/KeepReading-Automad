@@ -41,7 +41,9 @@
 				<@ end @>
                 <div class="uk-child-width-1-2@s uk-child-width-1-3@m" uk-grid>
                     <@ foreach in pagelist @>
-                    <@ elements/bloglist-item.php @>    
+						<@ if not @{ checkboxHideBloglist } @>
+							<@ elements/bloglist-item.php @>
+						<@ end @>
                     <@ end @>
                 </div>
 				<div class="pagination">

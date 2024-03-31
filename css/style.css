@@ -218,3 +218,19 @@ blockquote{
 .card-body-prev-next{
   text-align: start;
 }
+
+
+/*
+-------------------------------------------
+      Content Boxen
+-------------------------------------------
+*/
+
+.container {
+  display: flex; /* Flexbox verwenden */
+}
+.box {
+  width: 50%; /* Jede Box nimmt die Hälfte der Breite des Elternelements ein */
+  padding: 20px;
+  box-sizing: border-box; /* Padding in der Breite einbeziehen */
+}

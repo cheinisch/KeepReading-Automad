@@ -11,7 +11,8 @@
             "checkboxCloudCSS"
         ],
         "post": [
-            "checkboxCloudCSS"
+            "checkboxCloudCSS",
+            "checkboxShowBloglist"
         ],
         "shared": [
             "+main",
@@ -27,7 +28,8 @@
         "checkboxShowinBottomNav_2":"Show Page in Bottom Nav 2",
         "checkboxCloudCSS":"Using UIKit cdn for delivery",
         "checkboxLightBox":"Using Lightbox for Pictures",
-        "itemsTrackingCode":"Additional Tracking Code in the Footer Area"
+        "itemsTrackingCode":"Additional Tracking Code in the Footer Area",
+        "checkboxHideBloglist":"Show Page in Bloglist"
     }
 }
 

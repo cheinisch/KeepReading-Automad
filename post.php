@@ -47,7 +47,10 @@ $langArray = require './packages/heimfisch/keepreading/lang/lang.en.php';
                     <@ end @>
                 </div>
                     <div class="keepon-reading">
+                    <@ newPagelist { type: 'siblings' } @>
+	                    <@ if @{ :pagelistCount } @>
                         <h3><?php echo $langArray['keeponreading']; ?></h3>
+                        <@ end @>
                     </div>
                 <@ elements/prev_next.php @>
             </article>

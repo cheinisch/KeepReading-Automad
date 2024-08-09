@@ -29,10 +29,10 @@ $langArray = require './packages/heimfisch/keepreading/lang/lang.en.php';
                         <span>@{ +subheadline }</span>
                     <@ end @> 
                 </div>
-                <@ if @{ +main } @>
+                <@ if @{ +main } > 5 @>
                     @{ +main }
                 <@ end @> 
-                <@ if @{ text } @>
+                <@ if @{ text }@>
                     @{ text | markdown }
                 <@ end @> 
                 <div class="article-info">

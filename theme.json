@@ -17,7 +17,8 @@
         "shared": [
             "+main",
             "subheadline",
-            "author"
+            "author",
+            "checkboxDark"
         ]
     },
     "tooltips": {

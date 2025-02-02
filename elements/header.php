@@ -1,6 +1,6 @@
 <@~ header-image.php @>
 <!doctype html>
-<html class="no-js" lang="de">
+<html class="no-js" lang="de" style="color-scheme: dark">
     <head>
         <meta charset="utf-8" />
         <meta http-equiv="x-ua-compatible" content="ie=edge" />
@@ -35,11 +35,11 @@
 
         <@ else @>
         <!-- UIkit CSS -->
-        <link rel="stylesheet" href="/packages/@{ theme }/css/uikit.min.css" />
+            <link rel="stylesheet" href="/packages/@{ theme }/css/uikit.min.css" />
 
-        <!-- UIkit JS -->
-        <script src="/packages/@{ theme }/js/uikit.min.js"></script>
-        <script src="/packages/@{ theme }/js/uikit-icons.min.js"></script>
+            <!-- UIkit JS -->
+            <script src="/packages/@{ theme }/js/uikit.min.js"></script>
+            <script src="/packages/@{ theme }/js/uikit-icons.min.js"></script>
         <@ end @>
 
 

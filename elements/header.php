@@ -1,6 +1,6 @@
 <@~ header-image.php @>
 <!doctype html>
-<html class="no-js" lang="de" style="color-scheme: dark">
+<html class="no-js" lang="de" style="color-scheme: light">
     <head>
         <meta charset="utf-8" />
         <meta http-equiv="x-ua-compatible" content="ie=edge" />

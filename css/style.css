@@ -9,10 +9,13 @@
     --color-black: #000;
     --color-white: #fff;
     --color-grey: #777;
+    --color-grey-darkmode: #555;
     --color-light: #efefef;
     --color-text: var(--color-black);
+    --color-text-darkmode: var(--color-white);
     --color-text-grey: var(--color-grey);
     --color-background: var(--color-white);
+    --color-background-darkmode: var(--color-black);
     --color-code-light-grey:  #cacbd1;
     --color-code-comment:     #a9aaad;
     --color-code-white:       #c5c9c6;
@@ -31,6 +34,10 @@
     font-family: var(--font-family-sans);
     color: var(--color-text);
     background: var(--color-background);
+    @media (prefers-color-scheme: dark) {
+      background-color: var(--color-background-darkmode);
+      color: var(--color-text-darkmode);
+    }
   }
   img {
     width: 100%;
@@ -64,13 +71,19 @@
 
 time{
   font-style: normal;
-  color:#777;
+  color:var( --color-grey);
   font-size: medium;
+  @media (prefers-color-scheme: dark) {
+    color:var(  --color-grey-darkmode)
+  }
 }
 .time{
-font-style: normal;
-color:#777;
-font-size: medium;
+  font-style: normal;
+  color:var( --color-grey);
+  font-size: medium;
+  @media (prefers-color-scheme: dark) {
+    color:var(  --color-grey-darkmode)
+  }
 }
 
 /*
@@ -243,4 +256,32 @@ blockquote{
 
 h1, h2, h3, h4, h5, h6{
   margin-top: 0 !important;
+  @media (prefers-color-scheme: dark) {
+    color:var(  --color-text-darkmode)
+  }
+}
+
+
+/*
+-------------------------------------------
+    NAVBAR
+-------------------------------------------
+*/
+
+.uk-navbar{
+  @media (prefers-color-scheme: dark) {
+    color:var(  --color-text-darkmode)
+  }
+}
+
+a.uk-navbar-item{
+  @media (prefers-color-scheme: dark) {
+    color:var(  --color-text-darkmode)
+  }
+}
+
+a.uk-navbar-item:hover{
+  @media (prefers-color-scheme: dark) {
+    color:var(  --color-grey)
+  }
 }

@@ -1,5 +1,5 @@
 <@~ header-image.php @>
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="de" style="color-scheme: light">
     <head>
         <meta charset="utf-8" />
@@ -46,4 +46,6 @@
         <!-- Keepreading CSS -->
         <link rel="stylesheet" href="/packages/@{ theme }/css/style.css">
         <!---->
+
+        <script src="/automad/dist/blocks/main.bundle.js"></script>
     </head>

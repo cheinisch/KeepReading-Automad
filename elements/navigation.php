@@ -13,9 +13,9 @@
                         <div class="uk-navbar-right">
                             <ul class="uk-navbar-nav">
                                 <li>
-                                    <?php if ($rssfeed == 1) { echo '<a href="/feed"><span uk-icon="rss"></span></a>'; } ?>
+                                    <?php if ($rssfeed == 1) { echo '<a href="/feed"><span class="navbar-items" uk-icon="rss"></span></a>'; } ?>
                                 </li>
-                                <li><a uk-toggle="target: #offcanvas-nav" href="#"><span uk-navbar-toggle-icon></span></a></li>
+                                <li><a uk-toggle="target: #offcanvas-nav" href="#"><span class="navbar-items" uk-navbar-toggle-icon></span></a></li>
                             </ul>
                             <div id="offcanvas-nav" uk-offcanvas="mode: slide overlay: true">
                                 <div class="uk-offcanvas-bar">

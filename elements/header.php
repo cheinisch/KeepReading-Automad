@@ -47,5 +47,9 @@
         <link rel="stylesheet" href="/packages/@{ theme }/css/style.css">
         <!---->
 
+        <!-- Photoswipe CSS -->
+        <link rel="stylesheet" href="/packages/@{ theme }/css/photoswipe.css">
+        <!---->
+
         <script src="/automad/dist/blocks/main.bundle.js"></script>
     </head>

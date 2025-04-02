@@ -28,6 +28,8 @@
     --color-code-purple:      #b294bb;
     --font-family-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     --font-family-mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    --am-gallery-background: rgba(0, 0, 0, .2);
+	  --am-gallery-controls-color: #fff;
   }
   
   html {
